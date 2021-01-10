@@ -13,7 +13,9 @@ Voici les différents éléments qui composent le dataset :
      'Canabis', 'Choc', 'Coke', 'Crack', 'Ecstasy', 'Heroin', 'Ketamin', 'Legalh', 'LSD', 'Meth',
      'Mushrooms', 'Nicotine', 'Semer', 'VSA')
      
+L'objectif de ce notebook est le suivant : Prévoir  si un individu consommera ou pas une drogue en fonction de ses caractéristiques psychologiques mais aussi de ses autres consommations grâce à différents modèles de Machine Learning.
+     
 Le projet se décompose en plusieurs parties :   
-  1. Exploration du dataset    
-  2. Machine Learning    
-  3. API Flask
+  1. Exploration du dataset : exploration des variables, recherche de corrélation
+  2. Machine Learning : Test de différents modèles (SVC, Naive Bayes, K nearest neighbors, random forest) sur plusieurs variables pour prédire la consommation ou non d'une drogue.   
+  3. API Flask : API qui permet de faire les prédictions
